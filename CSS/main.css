@@ -1,0 +1,29 @@
+.site-header {
+    background-color: #57888a;
+    color: #e4ddd1;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header-content{
+    margin: 10px;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+.course-link{
+    color: #e4ddd1;
+}
+
+body{
+    margin: 0;
+}
