@@ -1,8 +1,10 @@
 .site-header {
     background-color: #57888a;
+    background-image: url('/Portfolio-course/Images/bgimage.jpg');
+    background-size: cover;
     color: #e4ddd1;
     height: 100vh;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: cursive;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,20 +12,20 @@
 }
 
 .site-header-content{
-    margin: 10px;
+    text-align: left;    
 }
 
-.profile-pic{
+/*.profile-pic{
     border-radius: 50%;
     height: 200px;
     width: 200px;
     align-self: center;
-}
+}*/
 
 .course-link{
     color: #e4ddd1;
 }
 
-body{
+body {
     margin: 0;
 }
