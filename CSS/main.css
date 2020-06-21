@@ -16,12 +16,13 @@
     text-align: left;    
 }
 
-/*.profile-pic{
+.profile-pic{
     border-radius: 50%;
     height: 200px;
     width: 200px;
     align-self: center;
-}*/
+    padding: 20px;
+}
 
 .course-link{
     color: #e4ddd1;
