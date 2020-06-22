@@ -1,11 +1,12 @@
 
 .site-header {
-    background-color: #57888a;
-   /* background-image: url('/Portfolio-course/Images/bgimage.jpg');
-    background-size: cover;*/
-    color: #e4ddd1;
+   /* background-color: #E91E63;*/
+   background: linear-gradient(90deg, #E91E63, #E91E63);
+ /*  linear-gradient(90deg,#efede8 1-px,transparent 0),linear-gradient(180deg,#faf4e6 1px,transparent 0)*/
+    color: #ffaf2f;
     height: 100vh;
-    font-family: cursive;
+    font-family: 'VT323', monospace;
+   /* font-family: cursive;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,37 +25,35 @@
     padding: 20px;
 }
 
-.course-link{
-    color: #e4ddd1;
-}
+
 
 body {
     margin: 0;
 }
 
 .topnav {
-    background-color: #333;
+    background-color: #9716ad;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #ffaf2f;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #f19711;
     color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #2926c5;
+    color: #dad2c5;
   }
