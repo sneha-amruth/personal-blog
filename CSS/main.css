@@ -34,6 +34,8 @@ body {
 .topnav {
     background-color: #9716ad;
     overflow: hidden;
+    border-style: dotted;
+    border-radius: 20px;
   }
   
   /* Style the links inside the navigation bar */
