@@ -6,26 +6,30 @@
     color: #ffaf2f;
     height: 100vh;
     font-family: 'VT323', monospace;
-   /* font-family: cursive;*/
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
 
 .site-header-content{
-    text-align: left;    
+    /* float: right; */
+    text-align: center;
+}
+
+.title{
+  display: flex;
 }
 
 .profile-pic{
+    /* float: left; */
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    align-self: center;
-    padding: 20px;
+    align-self: center; 
+    padding: 10px;
+    
 }
-
-
 
 body {
     margin: 0;
