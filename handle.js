@@ -1,7 +1,3 @@
-function navbar(item) {
-  var x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  document.getElementById(cityName).style.display = "block";  
-}
+var ColourArray = ['#80bad9', '#ede9af', '#f2afdf', '#cdeb83', '#8bc3b1', '#f9d999', '#eeb550', '#CB99C9', '#F49AC2', '#779ECB', '#AEC6CF', '#DEA5A4', '#ab907a', '#FF6961', '#c8a99f', '#bec89f', '#99C7FF', '#ffbdbd'];
+var getBGcolour = ColourArray[Math.floor(Math.random() * ColourArray.length)];
+document.body.style.backgroundColor = getBGcolour;

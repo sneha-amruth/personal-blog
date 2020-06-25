@@ -1,7 +1,16 @@
 
 .site-header {
    /* background-color: #E91E63;*/
-   background: linear-gradient(90deg, #E91E63, #E91E63);
+   background-image: radial-gradient(#F44336 25%, transparent 20%),
+   radial-gradient(#E91E63 25%, transparent 20%);
+   background-color: #E91E63;
+   background-position: 0 0, 50px 50px;
+   background-size: 10px 10px;
+   animation-name: backgroundmovement;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   /* background: linear-gradient(90deg, #E91E63, #E91E63); */
  /*  linear-gradient(90deg,#efede8 1-px,transparent 0),linear-gradient(180deg,#faf4e6 1px,transparent 0)*/
     color: #ffaf2f;
     height: 100vh;
@@ -11,6 +20,18 @@
     justify-content: center;
     align-items: center;
 }
+
+
+ /*creates movement of the background*/
+  @keyframes backgroundmovement {
+  0% {
+      background-position: 0px 0px, 60px 60px;
+    }
+  100% {
+       background-position: 60px 60px, 120px 120px;
+    }
+  }
+  
 
 .site-header-content{
     /* float: right; */
