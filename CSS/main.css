@@ -56,9 +56,16 @@ body {
     margin: 0;
 }
 
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .topnav {
     background-color: #9716ad;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-style: dotted;
     border-radius: 20px;
   }
@@ -83,9 +90,5 @@ body {
   .topnav a.active {
     background-color: #2926c5;
     color: #dad2c5;
-  }
-
-  @media screen and (max-width: 600px) {
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-  }
+  }  
+  
